@@ -30,23 +30,23 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen pt-24 bg-background">
+    <div className="min-h-screen pt-20 sm:pt-24 bg-background">
       {/* Header Section */}
-      <section className="py-16 bg-gradient-card">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <h1 className="text-5xl font-heading font-bold text-law-navy mb-6">
+      <section className="py-12 sm:py-16 bg-gradient-card">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-law-navy mb-6 leading-tight">
             {t('contact.title')}
           </h1>
-          <p className="text-xl text-muted-foreground">
+          <p className="text-lg sm:text-xl text-muted-foreground">
             {t('contact.subtitle')}
           </p>
         </div>
       </section>
 
       {/* Contact Information & Form Section */}
-      <section className="py-16">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="grid lg:grid-cols-2 gap-12">
+      <section className="py-12 sm:py-16">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
             {/* Contact Information */}
             <div className="space-y-8">
               <Card className="shadow-card">
